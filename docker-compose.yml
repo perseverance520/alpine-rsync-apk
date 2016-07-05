@@ -1,0 +1,9 @@
+
+mirror:
+    image: alpine-package-mirror
+    volumes: ['/data/alpine:/data']
+    ports: ['80:5000']
+
+#data:
+#    image: alpine-package-data:root
+#    volumes: ['/data/alpine:/data']
